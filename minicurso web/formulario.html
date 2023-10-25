@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="assets/logo.svg" alt="Logo"></a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="filmes.html">filmes</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+            <li><a href="cinemas.html">cinemas</a></li>
+            <li><a href="noticias.html">noticias</a></li>
+            <li><a href="loja">loja</a></li>
+        </ul>
+    </nav>
+    <section class="container-form">
+        <form>
+            <fieldset>
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required></input>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <div class="campo">
+                    <label><strong>Sexo</strong></label>
+                    <input type="radio" name="sexo" value="masc">
+                    <label for="Masculino">Masculino</label>
+                    <input type="radio"  name="sexo" value="fem">
+                    <label for="Feminino">Feminino</label>
+                    <input type="radio" name="sexo" value="ot">
+                    <label for="Outro">Outro</label>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <div class="campo">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <div class="campo">
+                    <label for="senioridade"><strong> Cidade: </strong></label>
+                    <select id="senioridade">
+                        <option selected disable value="">Selecione</option>
+                        <option>Leopoldina</option>
+                        <option>Cataguases</option>
+                        <option>Juiz de fora</option>
+                    </select>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <div class="campo">
+                    <label><strong>Selecione o genero de filme favorito:</strong></label><br>
+                    <input type="checkbox" id="tecnologia1" value="HTML">
+                    <label type="tecnologia1">Ação</label>
+                    <input type="checkbox" id="tecnologia2" value="CSS">
+                    <label type="tecnologia2">Comédia</label>
+                    <input type="checkbox" id="tecnologia3" value="javascript">
+                    <label type="tecnologia3">Drama</label>
+                    <input type="checkbox" id="tecnologia4" value="PHP">
+                    <label type="tecnologia4">Romance</label>
+                    <input type="checkbox" id="tecnologia5" value="C#">
+                    <label type="tecnologia5">Documentário</label>
+                    <input type="checkbox" id="tecnologia6" value="python">
+                    <label type="tecnologia6">Suspense</label>
+                    <input type="checkbox" id="tecnologia7" value="java">
+                    <label type="tecnologia7">Terror</label>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <div>
+                    <label><strong>Conte um pouco da sua experiência:</strong></label><br>
+                    <textarea row="6" style="width: 26em" id="experiencia" nome="experiencia"></textarea>
+                </div>
+            </fieldset>
+            <button class="botao" type="submit">Concluir</button>
+        </form>
+    </section>
+    <footer>
+        <h2>Ingresso.com</h2>
+        <div class="row">
+            <div class="column-footer">
+                <h3>Atendimento</h3>
+                <p>ingresso@email.com<br>(32) 9.9988-7766</p>
+            </div>
+            <div class="column-footer">
+                <h3>Menu</h3>
+                <a href="${link.href}" style="text-decoration: none; color: #fff;">Filmes</a><br>
+                <a href="${link.href}" style="text-decoration: none; color: #fff;">Cinemas</a><br>
+                <a href="${link.href}" style="text-decoration: none; color: #fff;">Noticias</a><br>
+                <a href="${link.href}" style="text-decoration: none; color: #fff;">Loja</a><br>
+            </div>
+            <div class="column-footer">
+                <h3>Políticas</h3>
+                <p>Privacidade e Segurança</p>
+                <p>Meia-entrada</p>
+                <p>Termos de Uso</p>
+            </div>
+            <div class="column-footer">
+                <h3>Precisa de Ajuda?</h3>
+                <p>Atendimento</p>
+                <p>Cancelar Pedido</p>
+                <p>Sites ou e-mails falsos</p>
+            </div>
+        </div>
+        <hr style="opacity: 50%;">
+        <p style="opacity: 50%; text-align: center; font-size: smaller;">Ingresso.com Ltda / CNPJ: 008606400001-71 Endereço: Rua da Quitanda, 86 - 9º andar - Centro - RJ - 20091-005 <br> Atendimento ao cliente © 2023 - Copyright Ingresso.com - todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
